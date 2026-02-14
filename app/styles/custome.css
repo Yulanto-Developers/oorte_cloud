@@ -1,0 +1,59 @@
+/* .logo-imgs{
+    height: 50px;
+} */
+
+.banner-font {
+    font-size: 35 !important;
+}
+
+.icons-h-w {
+    height: 50px;
+    width: 50px;
+}
+
+.cls-height {
+    height: 474px;
+
+}
+
+.font-cls {
+    font-weight: bolder !important;
+
+}
+
+.font-h3-tags {
+    font-weight: 300 !important;
+    font-size: 15px !important;
+    line-height: 30px !important;
+    text-align: justify;
+}
+
+.why-choose-us-left {
+    font-size: 23px !important;
+}
+
+.mt-20 {
+    margin-top: 80px !important;
+}
+
+.my-2000 {
+    margin-top: 10px !important;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-anchore {
+    color: #929aa3;
+
+}
+
+.text-theme {
+    color: #0e1449;
+}
