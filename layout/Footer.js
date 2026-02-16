@@ -35,7 +35,7 @@ const Footer1 = () => {
               <div className="single-footer-widget me-xxl-5 pe-xxl-4">
                 <div className="widget-head">
                   <Link href="/">
-                    <img src="assets/img/logo/logo.png" alt="logo-img" />
+                    <img src="assets/img/logo/logo-3.png" alt="logo-img" />
                   </Link>
                 </div>
                 <div className="footer-content">
@@ -153,15 +153,7 @@ const Footer1 = () => {
                 </div>
                 <div className="footer-content">
                   <div className="contact-info-area">
-                    <div className="contact">
-                      <a href="#">
-                        <MdOutlineEmail className="icon-h-w"  />
-                      </a>
-                      <div className="contact-infu">
-                        <span>Mail Us:</span>
-                        <h5>oortecloud@gmail.com</h5>
-                      </div>
-                    </div>
+
                     <div className="contact">
                       <a href=''>
                         <MdOutlineAddLocationAlt className="icon-h-w" />
@@ -175,6 +167,15 @@ const Footer1 = () => {
                           Panduranga Nagar,
                           Bengaluru-560 076
                         </h5>
+                      </div>
+                    </div>
+                    <div className="contact">
+                      <a href="#">
+                        <MdOutlineEmail className="icon-h-w" />
+                      </a>
+                      <div className="contact-infu">
+                        <span>Mail Us:</span>
+                        <h5>oortecloud@gmail.com</h5>
                       </div>
                     </div>
                     <div className="contact">
@@ -197,7 +198,7 @@ const Footer1 = () => {
         <div className="container">
           <div className="footer-bottom-wrapper footer-flex">
             <p className="">
-              ©Copyright 2025 Zotech All Rights Reserved
+              © Copyright 2026 Oorte Cloud All Rights Reserved
             </p>
             <p className="">
               Designed by <a className="footer-anchore" target="blank" href='https://yulanto.com'>Yulanto Web Creations</a>

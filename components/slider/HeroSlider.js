@@ -21,7 +21,7 @@ const HeroSlider = () => {
       highlight: "Solutions",
       btnText: "Reach Us",
       btnLink: "about",
-      bg: "/assets/img/banner/banner-2.jpg",
+      bg: "/assets/img/banner/banner-3.jpg",
     },
   ];
 

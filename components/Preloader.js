@@ -19,7 +19,9 @@ const Preloader = () => {
       style={{ display: displayLoaded ? "flex" : "none" }}
     >
       <div className="animation-preloader">
-        <div className="spinner"></div>
+        <div className="spinner">
+          <img src="/assets/img/logo/favicon.png" className='spinner-logo' alt="Logo" />
+        </div>
         <div className="txt-loading">
           <span data-text-preloader="O" className="letters-loading">
             O
@@ -33,11 +35,14 @@ const Preloader = () => {
           <span data-text-preloader="T" className="letters-loading">
             T
           </span>
+          <span data-text-preloader="E" className="letters-loading">
+            E
+          </span>
           <span data-text-preloader="C" className="letters-loading">
             C
           </span>
           <span data-text-preloader="L" className="letters-loading">
-          L  
+            L
           </span>
           <span data-text-preloader="O" className="letters-loading">
             O

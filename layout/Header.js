@@ -55,7 +55,7 @@ const Header1 = () => {
                   <div className="logo">
                     <Link href="/" className="header-logo">
                       <img
-                        src="assets/img/logo/logo.png"
+                        src="assets/img/logo/logo-3.png"
                         alt="logo-img"
                         className="logo-imgs"
                       />

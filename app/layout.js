@@ -12,6 +12,7 @@ import "./styles/custome.css";
 
 
 
+
 import Preloader from "@/components/Preloader";
 import { DM_Sans, Montserrat } from "next/font/google";
 
@@ -41,8 +42,10 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       className={`${montserratFont.variable} ${dm_sansFont.variable}`}
+      
     >
       <body>
+        
         <Preloader />
         {children}
       </body>

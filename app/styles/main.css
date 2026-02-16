@@ -536,12 +536,12 @@ input.main-search-input::placeholder {
 .scroll-up::after {
   position: absolute;
   font-family: "Font Awesome 5 Pro";
-  content: "\f176";
+  /* content: "\f062"; */
   text-align: center;
   line-height: 50px;
   font-weight: 700;
   font-size: 18px;
-  color: var(--theme-2);
+  /* color: var(--theme-2); */
   left: 0;
   top: 0;
   height: 50px;
@@ -557,7 +557,7 @@ input.main-search-input::placeholder {
 }
 
 .scroll-up svg.scroll-circle path {
-  stroke: var(--theme-2);
+  /* stroke: var(--theme-2); */
   stroke-width: 4px;
   box-sizing: border-box;
   transition: all 0.4s ease-in-out;
@@ -634,7 +634,7 @@ input.main-search-input::placeholder {
 @media (max-width: 767px) {
   .section-title {
     margin-bottom: 0;
-    text-align: center;
+    /* text-align: center; */
   }
 }
 
@@ -9685,6 +9685,7 @@ p.sticky-label {
     height: 100%;
     padding-left: 40px;
     padding-top: 20px;
+    padding-bottom:30px
   }
 }
 

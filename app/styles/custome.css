@@ -57,3 +57,105 @@
 .text-theme {
     color: #0e1449;
 }
+
+
+/* product hover css */
+
+.single-service-item {
+    position: relative;
+    overflow: hidden;
+}
+
+.single-service-item .image img {
+    width: 100%;
+    display: block;
+}
+
+/* Hover Content */
+.hover-content {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    /* dark overlay */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff !important;
+    opacity: 0;
+    transition: 0.4s ease;
+    text-align: center;
+}
+
+/* Show on hover */
+.single-service-item:hover .hover-content {
+    opacity: 1;
+}
+
+/* Optional smooth zoom effect */
+.single-service-item:hover .image img {
+    transform: scale(1.1);
+    transition: 0.4s ease;
+}
+
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.card-flex-cls {
+    display: flex;
+    align-items: baseline;
+}
+
+/* .scroll-realtive{
+    po
+} */
+
+
+
+
+.spinner {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #000;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+/* Logo stays fixed */
+.spinner-logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 60px;
+    height: auto;
+    transform: translate(-50%, -50%);
+}
+
+/* Rotation only for border */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+    .pt-100 {
+        padding-top: 50px;
+    }
+
+    .footer-flex {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}

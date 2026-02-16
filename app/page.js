@@ -52,7 +52,7 @@ const page = () => {
     {
       id: 1,
       title: "Banana Stem Juice",
-      image: "/assets/img/products/img-1.jpg",
+      image: "/assets/img/products/img-1 (2).jpg",
       icon: "/assets/img/icons/product (1).png",
       delay: "200ms",
       description:
@@ -153,13 +153,13 @@ const page = () => {
                         </Link>
                       </h4>
                       <ul>
-                        <li>
+                        <li className='card-flex-cls'>
                           <i className="fas fa-check-circle" />
-                          {item.list1}
+                          <span>{item.list1}</span>
                         </li>
-                        <li>
+                        <li className='card-flex-cls'>
                           <i className="fas fa-check-circle" />
-                          {item.list2}
+                          <span>{item.list2}</span>
                         </li>
                       </ul>
                     </div>
@@ -193,7 +193,7 @@ const page = () => {
                 <div className="about-content mt-4 ms-xxl-4">
                   <div className="section-title">
                     <div className="sub-title">
-                      <span>WELCOME TO OORLE</span>
+                      <span>WELCOME TO OORTE</span>
                     </div>
                     <h2 className="split-text right">
                       Delivering Excellence in Global  <br /> &amp; Import & Export
@@ -250,7 +250,7 @@ const page = () => {
                   </div>
                   <div className="section-title mt-4">
                     <h2 className="split-text left why-choose-us-left">
-                      Oorle Cloud Provide Best Service in Market
+                      Oorte Cloud Provide Best Service in Market
                     </h2>
                   </div>
                 </div>
@@ -322,39 +322,27 @@ const page = () => {
                 >
                   {servicesData.map((service) => (
                     <SwiperSlide key={service.id}>
-                      <div className="single-service-item wow fadeInUp">
-                        {/* <div className="shape">
-                          <img
-                            className="shape-3"
-                            src="/assets/img/service/shape-1.png"
-                            alt=""
-                          />
-                          <img
-                            className="shape-4"
-                            src="/assets/img/service/shape-2.png"
-                            alt=""
-                          />
-                        </div> */}
+                      <div className="single-service-item">
 
                         <div className="image">
                           <img src={service.image} alt={service.title} />
                         </div>
 
-                        <div className="content">
+                        <div className="hover-content">
                           <div className="icon">
-                            <img src={service.icon} className="icons-h-w"  alt=''/>
+                            <img src={service.icon} className="icons-h-w" alt="" />
                           </div>
 
-                          <h4>
-                            <Link href="services-details">
-                              {service.title}
-                            </Link>
+                          <h4 className="text-white">
+                            {/* <Link href="services-details"> */}
+                            {service.title}
+                            {/* </Link> */}
                           </h4>
-
-                          <p>{service.description}</p>
                         </div>
+
                       </div>
                     </SwiperSlide>
+
                   ))}
                 </Swiper>
               </div>
@@ -495,7 +483,7 @@ const page = () => {
               <Testimonial />
             </div>
           </div>
-        </section>      
+        </section>
         <section className="cta-wrapper cta-1 my-2000">
           <div className="container">
             <div
@@ -513,8 +501,8 @@ const page = () => {
               <div className="row align-items-center">
                 <div className="col-xl-6 col-lg-6 col-12">
                   <div className="section-title">
-                  
-                    <h2 className="text-theme">
+
+                    <h2 className="text-theme pt-100">
                       We’re Delivering Best Customer Experience
                     </h2>
                   </div>
@@ -531,7 +519,7 @@ const page = () => {
             </div>
           </div>
         </section>
-        <FloatingWhatsApp/>
+        <FloatingWhatsApp />
       </ZotechLayout>
     </Fragment>
   );
