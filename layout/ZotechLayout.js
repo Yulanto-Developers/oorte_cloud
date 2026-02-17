@@ -25,8 +25,8 @@ const ZotechLayout = ({
 
   return (
     <Fragment>
-      <VideoPopup />
-      <ImageView />
+      {/* <VideoPopup /> */}
+      {/* <ImageView /> */}
       <div className="page-wrapper">
         <Header header={header} />
         {children}

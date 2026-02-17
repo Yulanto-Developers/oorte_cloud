@@ -36,30 +36,30 @@ const VideoPopup_ = ({ close, videoID }) => {
   );
 };
 
-const VideoPopup = () => {
-  const [video, setVideo] = useState(false);
-  const [videoValue, setVideoValue] = useState(null);
-  useEffect(() => {
-    setTimeout(() => {
-      const a = document.querySelectorAll("a");
-      a.forEach((a) => {
-        if (a.href.includes("https://www.youtube.com/")) {
-          a.addEventListener("click", (e) => {
-            e.preventDefault();
-            setVideoValue(a.href);
-            setVideo(true);
-          });
-        }
-      });
-    }, 1000);
-  }, []);
-  return (
-    <Fragment>
-      {video && (
-        <VideoPopup_ close={() => setVideo(false)} videoID={videoValue} />
-      )}
-    </Fragment>
-  );
-};
+// const VideoPopup = () => {
+//   const [video, setVideo] = useState(false);
+//   const [videoValue, setVideoValue] = useState(null);
+//   useEffect(() => {
+//     setTimeout(() => {
+//       const a = document.querySelectorAll("a");
+//       a.forEach((a) => {
+//         if (a.href.includes("https://www.youtube.com/")) {
+//           a.addEventListener("click", (e) => {
+//             e.preventDefault();
+//             setVideoValue(a.href);
+//             setVideo(true);
+//           });
+//         }
+//       });
+//     }, 1000);
+//   }, []);
+//   return (
+//     <Fragment>
+//       {video && (
+//         <VideoPopup_ close={() => setVideo(false)} videoID={videoValue} />
+//       )}
+//     </Fragment>
+//   );
+// };
 
-export default VideoPopup;
+// export default VideoPopup;
