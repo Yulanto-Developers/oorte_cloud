@@ -1,7 +1,7 @@
 "use client";
-import ImageView from "@/components/ImageView";
+// import ImageView from "@/components/ImageView";
 import ScrollTop from "@/components/ScrollTop";
-import VideoPopup from "@/components/VideoPopup";
+// import VideoPopup from "@/components/VideoPopup";
 import { zotechUtility } from "@/utility";
 import { Fragment, useEffect } from "react";
 import Footer from "./Footer";

@@ -1,4 +1,4 @@
-import PriceRanger from "./PriceRanger";
+// import PriceRanger from "./PriceRanger";
 
 // const Contact = ({
 //   wrapperClass = "contact-us-wrapper contact-us-1 section-padding pt-0",

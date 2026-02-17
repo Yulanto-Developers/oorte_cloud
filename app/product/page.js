@@ -1,6 +1,6 @@
 import Pagebanner from "@/components/Pagebanner";
-import Pricing from "@/components/Pricing";
-import WorkingProcess from "@/components/WorkingProcess";
+// import Pricing from "@/components/Pricing";
+// import WorkingProcess from "@/components/WorkingProcess";
 import ZotechLayout from "@/layout/ZotechLayout";
 import Link from "next/link";
 const page = () => {

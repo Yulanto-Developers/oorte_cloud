@@ -1,10 +1,10 @@
 import AboutMe from "@/components/AboutMe";
-import Blog from "@/components/Blog";
+// import Blog from "@/components/Blog";
 import ChooseUs from "@/components/ChooseUs";
 import Pagebanner from "@/components/Pagebanner";
-import Pricing from "@/components/Pricing";
-import BrandSlider from "@/components/slider/BrandSlider";
-import TextSlider, { TextSlider2 } from "@/components/slider/TextSlider";
+// import Pricing from "@/components/Pricing";
+// import BrandSlider from "@/components/slider/BrandSlider";
+// import TextSlider, { TextSlider2 } from "@/components/slider/TextSlider";
 import { TeamMember2 } from "@/components/TeamMember";
 import ZotechLayout from "@/layout/ZotechLayout";
 import Link from "next/link";

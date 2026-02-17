@@ -1,4 +1,4 @@
-import Contact from "@/components/Contact";
+// import Contact from "@/components/Contact";
 import Pagebanner from "@/components/Pagebanner";
 import { Home2Accordion } from "@/components/ZotechAccordion";
 import ZotechLayout from "@/layout/ZotechLayout";
