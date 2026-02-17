@@ -58,6 +58,11 @@
     color: #0e1449;
 }
 
+.text-theme-ceo {
+    color: #0e1449 !important;
+    font-weight: 600 !important;
+}
+
 
 /* product hover css */
 
@@ -112,9 +117,50 @@
     po
 } */
 
+.single-choose-item {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 250px;
+    /* adjust height if needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Vision Background */
+.single-choose-item.vision {
+    background-image: linear-gradient(rgba(0, 3, 37, 0.6),
+            rgba(0, 3, 37, 0.6)),
+        url("/assets/img/why-choose/vision.png") !important;
+}
+
+/* Mission Background */
+.single-choose-item.mission {
+    background-image: linear-gradient(rgba(0, 3, 37, 0.6),
+            rgba(0, 3, 37, 0.6)),
+        url("/assets/img/why-choose/mision.png") !important;
+}
+
+.hover-font-size {
+    font-size: 14px !important;
+}
+
+.image-round {
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+   
+}
 
 
-
+.card-height{
+    height:200px;
+}
 .spinner {
     position: relative;
     width: 120px;
@@ -145,6 +191,75 @@
         transform: rotate(360deg);
     }
 }
+
+
+.team-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.team-image img {
+    width: 100%;
+    display: block;
+}
+
+/* Description Overlay */
+.hover-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.75);
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+/* Show on hover */
+.team-image:hover .hover-description {
+    opacity: 1;
+}
+
+/* Optional: Hide social icons until hover */
+.social-icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.team-image:hover .social-icon {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

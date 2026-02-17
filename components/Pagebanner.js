@@ -4,7 +4,7 @@ const Pagebanner = ({ pageName }) => {
   return (
     <div
       className="breadcrumb-wrapper bg-cover"
-      style={{ backgroundImage: 'url("assets/img/breadcrumb.jpg")' }}
+      style={{ backgroundImage: 'url("assets/img/banner/page-banner.jpg")' }}
     >
       <div className="container">
         <div className="page-heading">
@@ -17,7 +17,7 @@ const Pagebanner = ({ pageName }) => {
                 <Link href="/">Home</Link>
               </li>
               <li>
-                <i className="far fa-angle-double-right" />
+               <i className="fas fa-arrow-right"></i>
               </li>
               <li>{pageName}</li>
             </ul>

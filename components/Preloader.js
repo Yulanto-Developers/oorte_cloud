@@ -35,8 +35,14 @@ const Preloader = () => {
           <span data-text-preloader="T" className="letters-loading">
             T
           </span>
+          <span data-text-preloader=" " className="letters-loading">
+            {" "}
+          </span>
           <span data-text-preloader="E" className="letters-loading">
             E
+          </span>
+          <span data-text-preloader=" " className="letters-loading">
+            {" "}
           </span>
           <span data-text-preloader="C" className="letters-loading">
             C

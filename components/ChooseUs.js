@@ -15,17 +15,15 @@ const ChooseUs = ({
                   <span>WHY CHOOSE US</span>
                 </div>
                 <h2 className="split-text right">
-                  We provide truly <br /> prominent IT solutions <br /> for your
-                  success
+                  Your Reliable   <br /> Global Trade<br />  Partner
                 </h2>
               </div>
               <p className="mt-4">
-                Zotech is the partner of choice for many of the world’s <br />{" "}
-                leading enterprises,
+                We are committed to delivering premium agricultural and fishery products with uncompromising quality, reliability, and global standards. Our structured sourcing process, scientific associations, and ethical practices ensure that every product meets international market expectations.
               </p>
-              <div className="reviews d-flex mt-4 pt-3">
+              {/* <div className="reviews d-flex mt-4 pt-3">
                 <div className="infu">
-                  <img src="assets/img/why-choose/04.png" alt />
+                  <img src="assets/img/why-choose/04.png" alt='' />
                   <h4>
                     Join our 50503+ <br /> Satisfied World Clients
                   </h4>
@@ -42,7 +40,7 @@ const ChooseUs = ({
                     member.
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           <div
@@ -50,20 +48,20 @@ const ChooseUs = ({
             data-wow-delay="300ms"
           >
             <div className="choose-us-images">
-              <img className="shape-1" src="assets/img/world.png" alt />
+              {/* <img className="shape-1" src="assets/img/world.png" alt='' /> */}
               <div className="row">
-                <div className="col-xl-6 col-lg-6 col-md-6 mt-xl-4">
+                {/* <div className="col-xl-6 col-lg-6 col-md-6 mt-xl-4">
                   <div className="single-choose-item active bg-cover mt-4 mt-xl-0">
                     <div className="shape">
                       <img
                         className="shape-2"
                         src="assets/img/shape/shape-10.png"
-                        alt
+                        alt=''
                       />
                       <img
                         className="shape-3"
                         src="assets/img/shape/shape-11.png"
-                        alt
+                        alt=''
                       />
                     </div>
                     <div className="icon">
@@ -81,49 +79,71 @@ const ChooseUs = ({
                       </p>
                     </div>
                   </div>
+                </div> */}
+                <div className="col-xl-6 col-lg-6 col-md-6 mt-xl-4">
+                  <div
+                    className="single-choose-item bg-cover mt-4 mt-xl-0"
+                    style={{
+                      backgroundImage:
+                        "linear-gradient(rgba(0,3,37,0.6), rgba(0,3,37,0.6)), url('/assets/img/why-choose/mission-1.jpg')",
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                      backgroundRepeat: "no-repeat",
+                      minHeight: "250px",
+                    }}
+                  >
+                    <h4 className='text-white'>Our Mission</h4>
+
+                    <div className="single-choose-hover bg-cover">
+                      <div className="icon">
+                        <i className="flaticon-view" />
+                      </div>
+                      <h4>Our Mission</h4>
+                      <p className="hover-font-size">
+                        To build long-term partnerships by ensuring sustainable sourcing, strict quality control, and dependable global supply chains.
+                      </p>
+                    </div>
+                  </div>
                 </div>
-                <div className="col-xl-6 col-lg-6 col-md-6 ">
-                  <div className="single-choose-item bg-cover mt-4 mt-xl-0">
-                    <div className="shape">
-                      <img
-                        className="shape-2"
-                        src="assets/img/shape/shape-10.png"
-                        alt
-                      />
-                      <img
-                        className="shape-3"
-                        src="assets/img/shape/shape-11.png"
-                        alt
-                      />
-                    </div>
-                    <div className="icon">
-                      <i className="flaticon-view" />
-                    </div>
-                    <h4>Our Vision</h4>
+
+                <div className="col-xl-6 col-lg-6 col-md-6">
+                  <div
+                    className="single-choose-item bg-cover mt-4 mt-xl-0"
+                    style={{
+                      backgroundImage:
+                        "linear-gradient(rgba(0,3,37,0.6), rgba(0,3,37,0.6)), url('/assets/img/why-choose/vision-1.jpg')",
+                      backgroundSize: "cover",
+                      backgroundPosition: "center",
+                      backgroundRepeat: "no-repeat",
+                      minHeight: "250px",
+                    }}
+                  >
+                    <h4 className="text-white">Our Vision</h4>
+
                     <div className="single-choose-hover bg-cover">
                       <div className="icon">
                         <i className="flaticon-view" />
                       </div>
                       <h4>Our Vision</h4>
-                      <p>
-                        Back up your database, store in a safe and secure place
-                        while still maintaining.
+                      <p className="hover-font-size">
+                        To set new standards in global agricultural and fishery trade through trust, quality, and innovation.
                       </p>
                     </div>
                   </div>
                 </div>
-                <div className="col-xl-6 col-lg-6 col-md-6 mt-xl-4">
+
+                {/* <div className="col-xl-6 col-lg-6 col-md-6 mt-xl-4">
                   <div className="single-choose-item bg-cover mt-4 mt-xl-0">
                     <div className="shape">
                       <img
                         className="shape-2"
                         src="assets/img/shape/shape-10.png"
-                        alt
+                        alt=''
                       />
                       <img
                         className="shape-3"
                         src="assets/img/shape/shape-11.png"
-                        alt
+                        alt=''
                       />
                     </div>
                     <div className="icon">
@@ -148,12 +168,12 @@ const ChooseUs = ({
                       <img
                         className="shape-2"
                         src="assets/img/shape/shape-10.png"
-                        alt
+                        alt=''
                       />
                       <img
                         className="shape-3"
                         src="assets/img/shape/shape-11.png"
-                        alt
+                        alt=''
                       />
                     </div>
                     <div className="icon">
@@ -171,7 +191,7 @@ const ChooseUs = ({
                       </p>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

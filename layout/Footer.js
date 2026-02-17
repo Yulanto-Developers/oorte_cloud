@@ -98,6 +98,12 @@ const Footer1 = () => {
                     </Link>
                   </li>
                   <li>
+                    <Link href="digital">
+                      <i className="fas fa-circle" />
+                      Digital Audio
+                    </Link>
+                  </li>
+                  <li>
                     <Link href="contact">
                       <i className="fas fa-circle" />
                       Contact Us

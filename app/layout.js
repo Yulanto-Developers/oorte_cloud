@@ -29,10 +29,10 @@ const dm_sansFont = DM_Sans({
 });
 
 export const metadata = {
-  title: "Oorle Cloud",
+  title: "Oort E Cloud",
   description:
     "Oorle Cloud",
-     icons: {
+  icons: {
     icon: "/assets/img/logo/favicon.png",
   }
 };
@@ -42,10 +42,10 @@ export default function RootLayout({ children }) {
     <html
       lang="en"
       className={`${montserratFont.variable} ${dm_sansFont.variable}`}
-      
+
     >
       <body>
-        
+
         <Preloader />
         {children}
       </body>

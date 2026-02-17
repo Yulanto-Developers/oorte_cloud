@@ -26,7 +26,7 @@ const Header1 = () => {
       <div className="topbar">
         <div className="container">
           <div className="topbar-inner d-flex align-items-center justify-content-between">
-            <p className="text-white">Welcome to Oorte Cloud</p>
+            <p className="text-white">Welcome to Oort E Cloud</p>
 
             {/* /.topbar__info */}
             <div className="social">
@@ -373,10 +373,10 @@ const Menu = () => {
             </ul>
           </li>
           <li>
-            <a href="#">
+            <Link href="/about">
               About Us
               {/* <i className="fas fa-angle-down" /> */}
-            </a>
+            </Link>
             {/* <ul className="submenu">
               <li>
                 <Link href="/team">Team</Link>
@@ -399,10 +399,10 @@ const Menu = () => {
             </ul> */}
           </li>
           <li>
-            <a href="#">
+            <Link href="product">
               Our Products
               {/* <i className="fas fa-angle-down" /> */}
-            </a>
+            </Link>
             {/* <ul className="submenu">
               <li>
                 <Link href="/services">Services Grid</Link>
@@ -413,6 +413,9 @@ const Menu = () => {
             </ul> */}
           </li>
 
+          <li>
+            <Link href="/digital">Digital Audio</Link>
+          </li>
           <li>
             <Link href="/contact">Contact</Link>
           </li>

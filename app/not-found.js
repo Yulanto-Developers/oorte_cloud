@@ -8,7 +8,7 @@ const page = () => {
       <section className="error-section section-padding fix">
         <div className="container">
           <div className="error-content text-center">
-            <img src="assets/img/404.png" alt />
+            <img src="assets/img/404.png" alt='' />
             <h3 className="wow fadeInUp" data-wow-delay=".3s">
               Page Not Found
             </h3>

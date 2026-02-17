@@ -27,29 +27,29 @@ const teamMembers = [
   },
 ];
 
-const TeamMember = () => {
-  return (
-    <section className="team-wrapper team-2 section-padding pt-0">
-      <div className="container">
-        <div className="section-title text-center">
-          <div className="sub-title">
-            <span>OUR TEAM MEMBER</span>
-          </div>
-          <h2 className="split-text right">Meet with Our Expert</h2>
-          <p className="text-center">
-            Accelerate innovation with world-class tech teams We’ll match you{" "}
-            <br /> to an entire remote team of incredible freelance.
-          </p>
-        </div>
-        <div className="row mt-4">
-          <Team teamMembers={teamMembers} />
-        </div>
-      </div>
-    </section>
-  );
-};
+// const TeamMember = () => {
+//   return (
+//     <section className="team-wrapper team-2 section-padding pt-0">
+//       <div className="container">
+//         <div className="section-title text-center">
+//           <div className="sub-title">
+//             <span>OUR TEAM MEMBER</span>
+//           </div>
+//           <h2 className="split-text right">Meet with Our Expert</h2>
+//           <p className="text-center">
+//             Accelerate innovation with world-class tech teams We’ll match you{" "}
+//             <br /> to an entire remote team of incredible freelance.
+//           </p>
+//         </div>
+//         <div className="row mt-4">
+//           <Team teamMembers={teamMembers} />
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
 
-export default TeamMember;
+// export default TeamMember;
 
 export const Team = ({ teamMembers }) => {
   return (
@@ -106,83 +106,57 @@ export const TeamMember2 = () => {
           <h2 className="split-text left">Meet with Our Expert</h2>
         </div>
         <p className="text-center">
-          Accelerate innovation with world-class tech teams We’ll match you{" "}
-          <br /> to an entire remote team of incredible freelance.
+          Connecting farms to global markets with export-grade products
+          <br /> backed by quality assurance and timely delivery.
         </p>
-        <div className="row">
-          {[
-            {
-              image: "assets/img/team/01.jpg",
-              role: "Warehouse Manager",
-              name: "Christopher Donovan",
-              delay: "200ms",
-            },
-            {
-              image: "assets/img/team/02.jpg",
-              role: "Operations Manager",
-              name: "Michael Carter",
-              delay: "400ms",
-            },
-            {
-              image: "assets/img/team/03.jpg",
-              role: "Fleet Supervisor",
-              name: "James Anderson",
-              delay: "600ms",
-            },
-            {
-              image: "assets/img/team/04.jpg",
-              role: "Project Manager",
-              name: "Daniel Thompson",
-              delay: "800ms",
-            },
-          ].map((member, index) => (
-            <div
-              key={index}
-              className="col-xl-3 col-lg-4 col-md-6 wow fadeInUp"
-              data-wow-delay={member.delay}
-            >
-              <div className="single-team-item">
-                <div className="shape">
-                  <img
-                    className="shape-2"
-                    src="assets/img/team/shape-1.png"
-                    alt=''
-                  />
-                  <img
-                    className="shape-3"
-                    src="assets/img/team/shape-2.png"
-                    alt=''
-                  />
-                </div>
-                <div className="team-image">
-                  <div className="image">
-                    <img src={member.image} alt="team-img" />
-                  </div>
-                  <div className="social-icon">
-                    <a href="#">
-                      <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-twitter" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a href="#">
-                      <i className="fab fa-pinterest-p" />
-                    </a>
-                  </div>
-                </div>
-                <div className="content text-center pt-3">
-                  <p>{member.role}</p>
-                  <h3>
-                    <Link href="/teams-details">{member.name}</Link>
-                  </h3>
-                </div>
-              </div>
-            </div>
-          ))}
+       <div className="row justify-content-center">
+  {[
+    {
+      image: "assets/img/team/t11.jpg",
+      role: "CEO",
+      name: "Pravin",
+      description:
+        "Pravin is a visionary leader with 15+ years of experience in business strategy, innovation, and corporate leadership.",
+      delay: "200ms",
+    },
+  ].map((member, index) => (
+    <div
+      key={index}
+      className="col-xl-6 col-lg-8 col-md-10 text-center wow fadeInUp"
+      data-wow-delay={member.delay}
+    >
+      <div className="single-team-item text-center">
+
+        {/* Image */}
+        <div className="team-image d-flex justify-content-center mb-4">
+          <img
+            src={member.image}
+            className="image-round"
+            alt="team-img"
+            style={{
+              width: "250px",
+              height: "250px",
+              objectFit: "cover",
+              borderRadius: "50%",
+              boxShadow: "0 5px 15px rgba(0,0,0,0.3)",
+            }}
+          />
         </div>
+
+        {/* Name */}
+        <h3 className="mb-2 text-theme-ceo">{member.name}</h3>
+
+        {/* Designation */}
+        <p className="fw-semibold mb-3">{member.role}</p>
+
+        {/* Description */}
+        <p className="px-3">{member.description}</p>
+
+      </div>
+    </div>
+  ))}
+</div>
+
       </div>
     </section>
   );

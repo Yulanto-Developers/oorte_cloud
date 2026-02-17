@@ -1,7 +1,7 @@
 const AboutMe = ({
   wrapperClass = "about-wrapper about-1 style-2 about-page section-padding",
-  img1 = "assets/img/about/09.jpg",
-  img2 = "assets/img/about/10.png",
+  img1 = "assets/img/about/about-img.jpg",
+  // img2 = "assets/img/about/10.png",
 }) => {
   return (
     <section className={wrapperClass}>
@@ -12,7 +12,7 @@ const AboutMe = ({
             data-wow-delay="300ms"
           >
             <div className="about-images-2">
-              <img
+              {/* <img
                 className="shape-1"
                 src="assets/img/about/shape-1.png"
                 alt=""
@@ -21,13 +21,13 @@ const AboutMe = ({
                 className="shape-2"
                 src="assets/img/shape/shape-1.png"
                 alt=""
-              />
+              /> */}
               <div className="image-1">
                 <img src={img1} alt="img" />
               </div>
-              <div className="image-2">
+              {/* <div className="image-2">
                 <img src={img2} alt="img" />
-              </div>
+              </div> */}
             </div>
           </div>
           <div
@@ -37,28 +37,28 @@ const AboutMe = ({
             <div className="about-content mt-xxl-5 mt-xl-0 mt-5 ms-xxl-2">
               <div className="section-title">
                 <div className="sub-title">
-                  <span>ABOUT OUR COMPANY</span>
+                  <span>About Oort E Cloud</span>
                 </div>
                 <h2>
-                  Accelerate Innovation <br /> with World-Class Tech
+                  Delivering Excellence in Global
+                  & t<br /> Import & Expor
                 </h2>
               </div>
               <p>
-                Accelerate innovation with world-class tech teams We’ll match
-                you to an entire remote team of incredible freelance talent for
-                all your software development needs.
+                We have a broad vision to serve global markets through the import and export of high-quality agricultural and fishery products. Our operations focus on sourcing and supplying premium products such as Spices, Bananas, Coconuts, Rice, Millets, and Fishery Products to customers around the world.
               </p>
+              <p className="font-cls">We are associated with</p>
               <ul>
-                <li>
-                  <i className="fas fa-check-circle" />
-                  Website &amp; Mobile application design &amp; Development
-                </li>
-                <li>
-                  <i className="fas fa-check-circle" />
-                  Dramatically re-engineer value added IT systems via mission
-                </li>
+                {
+                  list.map((item, index) => (
+                    <li key={index}>
+                      <i className="fas fa-check-circle" />
+                      {item.lists}
+                    </li>
+                  ))
+                }
               </ul>
-              <div className="feedback">
+              {/* <div className="feedback">
                 <div className="infu">
                   <img src="assets/img/about/06.png" alt="" />
                   <h6>Join our 50503+ Satisfied World Clients</h6>
@@ -74,7 +74,7 @@ const AboutMe = ({
                     Our great team of more than to 1400 software experts member.
                   </p>
                 </div>
-              </div>
+              </div> */}
               <div className="about-infu">
                 <a href="" className="theme-btn">
                   Get In Touch
@@ -97,3 +97,8 @@ const AboutMe = ({
   );
 };
 export default AboutMe;
+const list = [
+  { lists: 'ICAR – National Research Centre for Banana' },
+  { lists: 'Enabling  us to deliver scientifically supported' },
+  { lists: 'High-quality agricultural products.' },
+];
