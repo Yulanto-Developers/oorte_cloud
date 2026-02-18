@@ -1,5 +1,5 @@
 import Pagebanner from "@/components/Pagebanner";
-import WorkingProcess from "@/components/WorkingProcess";
+// import WorkingProcess from "@/components/WorkingProcess";
 import ZotechLayout from "@/layout/ZotechLayout";
 const page = () => {
   return (
@@ -107,7 +107,7 @@ const page = () => {
         </div>
       </section>
       {/* Process Section Start */}
-      <WorkingProcess />
+      {/* <WorkingProcess /> */}
     </ZotechLayout>
   );
 };

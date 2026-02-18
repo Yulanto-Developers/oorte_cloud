@@ -41,7 +41,7 @@ const AboutMe = ({
                 </div>
                 <h2>
                   Delivering Excellence in Global
-                  & t<br /> Import & Expor
+                  & t<br /> Import & Export
                 </h2>
               </div>
               <p>

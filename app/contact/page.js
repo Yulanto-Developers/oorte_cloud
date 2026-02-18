@@ -1,5 +1,5 @@
 import { Contact2 } from "@/components/Contact";
-import CTA from "@/components/CTA";
+// import CTA from "@/components/CTA";
 import Pagebanner from "@/components/Pagebanner";
 import ZotechLayout from "@/layout/ZotechLayout";
 import Link from "next/link";

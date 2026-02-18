@@ -6,6 +6,7 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlineAddLocationAlt } from "react-icons/md";
 import { MdOutlineEmail } from "react-icons/md";
+import { RiTwitterXLine } from "react-icons/ri";
 const Footer = ({ footer, cta }) => {
   switch (footer) {
     case 1:
@@ -133,12 +134,12 @@ const Footer1 = () => {
                       Instagram
                     </Link>
                   </li>
-                  {/* <li>
+                  <li>
                     <Link href="contact">
-                    <FaXTwitter/>
+                    <RiTwitterXLine/>
                      X
                     </Link>
-                  </li> */}
+                  </li>
                   <li>
                     <Link href="contact">
                       <FaFacebookF />
@@ -166,7 +167,7 @@ const Footer1 = () => {
 
                       </a>
                       <div className="contact-infu">
-                        <span>Address:</span>
+                       
                         <h5 className="text-lowercase">
                           #170, Sai Kranthi,
                           Near Siddivinayaka Temple,
@@ -180,7 +181,7 @@ const Footer1 = () => {
                         <MdOutlineEmail className="icon-h-w" />
                       </a>
                       <div className="contact-infu">
-                        <span>Mail Us:</span>
+                       
                         <h5>oortecloud@gmail.com</h5>
                       </div>
                     </div>
@@ -189,7 +190,7 @@ const Footer1 = () => {
                         <FaPhone className="icon-h-w" />
                       </a>
                       <div className="contact-infu">
-                        <span>Phone:</span>
+                       
                         <h5>+91 99800 43506</h5>
                       </div>
                     </div>
@@ -204,7 +205,7 @@ const Footer1 = () => {
         <div className="container">
           <div className="footer-bottom-wrapper footer-flex">
             <p className="">
-              © Copyright 2026 Oorte Cloud All Rights Reserved
+              © Copyright 2026 Oort E Cloud All Rights Reserved
             </p>
             <p className="">
               Designed by <a className="footer-anchore" target="blank" href='https://yulanto.com'>Yulanto Web Creations</a>

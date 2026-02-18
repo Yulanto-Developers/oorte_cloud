@@ -109,53 +109,56 @@ export const TeamMember2 = () => {
           Connecting farms to global markets with export-grade products
           <br /> backed by quality assurance and timely delivery.
         </p>
-       <div className="row justify-content-center">
-  {[
-    {
-      image: "assets/img/team/t11.jpg",
-      role: "CEO",
-      name: "Pravin",
-      description:
-        "Pravin is a visionary leader with 15+ years of experience in business strategy, innovation, and corporate leadership.",
-      delay: "200ms",
-    },
-  ].map((member, index) => (
-    <div
-      key={index}
-      className="col-xl-6 col-lg-8 col-md-10 text-center wow fadeInUp"
-      data-wow-delay={member.delay}
-    >
-      <div className="single-team-item text-center">
+        <div className="row justify-content-center">
+          {[
+            {
+              image: "assets/img/team/t11.jpg",
+              role: "CEO",
+              name: "Praveen Raj B",
+              description:
+                "Praveen Raj  is a visionary leader with 15+ years of experience in business strategy, innovation, and corporate leadership.",
+              delay: "200ms",
+            },
+          ].map((member, index) => (
+            <div
+              key={index}
+              className="col-xl-6 col-lg-8 col-md-10 text-center wow fadeInUp"
+              data-wow-delay={member.delay}
+            >
+              <div className="single-team-item text-center">
 
-        {/* Image */}
-        <div className="team-image d-flex justify-content-center mb-4">
-          <img
-            src={member.image}
-            className="image-round"
-            alt="team-img"
-            style={{
-              width: "250px",
-              height: "250px",
-              objectFit: "cover",
-              borderRadius: "50%",
-              boxShadow: "0 5px 15px rgba(0,0,0,0.3)",
-            }}
-          />
+                {/* Image */}
+                <a href='https://www.youtube.com/watch?v=eAxlv1XVMNU' target="blank">
+
+                  <div className="team-image d-flex justify-content-center mb-4 p-3">
+                    <img
+                      src={member.image}
+                      className="image-round"
+                      alt="team-img"
+                      style={{
+                        width: "250px",
+                        height: "250px",
+                        objectFit: "cover",
+                        borderRadius: "50%",
+                        boxShadow: "0 5px 15px rgba(0,0,0,0.3)",
+                      }}
+                    />
+                  </div>
+
+
+                  {/* Name */}
+                  <h3 className="mb-2 text-theme-ceo">{member.name}</h3>
+
+                  {/* Designation */}
+                  <p className="fw-semibold mb-3">{member.role}</p>
+
+                  {/* Description */}
+                  <p className="px-3">{member.description}</p>
+                </a>
+              </div>
+            </div>
+          ))}
         </div>
-
-        {/* Name */}
-        <h3 className="mb-2 text-theme-ceo">{member.name}</h3>
-
-        {/* Designation */}
-        <p className="fw-semibold mb-3">{member.role}</p>
-
-        {/* Description */}
-        <p className="px-3">{member.description}</p>
-
-      </div>
-    </div>
-  ))}
-</div>
 
       </div>
     </section>

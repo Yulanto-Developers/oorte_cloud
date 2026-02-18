@@ -79,102 +79,51 @@ const page = () => {
         },
     ];
     return (
-        <ZotechLayout>
-            <Pagebanner pageName="Our Products" />
-            <section className="service-wrapper service-4 section-bg section-padding">
-                <div className="container">
-                    <div className="service-inner text-center overflow-hidden">
-                        <div className="row gy-xxl-5">
-                            {servicesData.map((service, index) => (
-                                <div
-                                    key={index}
-                                    className="col-xxl-6 col-xl-6 col-lg-6 col-md-6"
-                                >
-                                    <div
-                                        className="signle-service-item wow fadeInUp"
-                                        data-wow-delay={service.delay}
-                                    >
-                                        <div
-                                            className="service-bg bg-cover"
-                                            style={{
-                                                backgroundImage: `url(${service.image})`,
-                                            }}
-                                        />
+      <ZotechLayout>
+  <Pagebanner pageName="Our Products" />
 
-                                        {/* <div className="icon">
-                                            <i className={service.icon} />
-                                        </div> */}
+  <section className="service-wrapper service-4 section-bg section-padding">
+    <div className="container">
+      <div className="service-inner text-center overflow-hidden">
+        <div className="row gy-xxl-5">
 
-                                        <div className="line mb-4" />
+          {servicesData.map((service, index) => (
+            <div
+              key={index}
+              className="col-xxl-6 col-xl-6 col-lg-6 col-md-6"
+            >
+              <div
+                className="floating-service-card wow fadeInUp"
+                data-wow-delay={service.delay}
+              >
+                <div
+                  className="floating-image bg-cover"
+                  style={{
+                    backgroundImage: `url(${service.image})`,
+                  }}
+                />
 
-                                        <h4>
-                                            <Link href="services-details">{service.title}</Link>
-                                        </h4>
+                <div className="floating-content">
+                  <h4>
+                    <Link href="product">
+                      {service.title}
+                    </Link>
+                  </h4>
 
-                                        <p className="pt-3">
-                                            {service.description}
-                                        </p>
-
-                                        <Link href="services-details" className="infu-btn">
-                                            Read More
-                                            <i className="fa fa-arrow-right" />
-                                        </Link>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                        {/* <div
-                            className="page-nav-wrap mt-5 text-center wow fadeInUp"
-                            data-wow-delay=".3s"
-                        >
-                            <ul>
-                                <li>
-                                    <a className="page-numbers" href="#">
-                                        <i className="far fa-angle-right" />
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="page-numbers" href="#">
-                                        01
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="page-numbers" href="#">
-                                        02
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="page-numbers" href="#">
-                                        03
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="page-numbers" href="#">
-                                        <i className="far fa-angle-right" />
-                                    </a>
-                                </li>
-                            </ul>
-                        </div> */}
-                    </div>
+                  <p>{service.description}</p>
                 </div>
-            </section>
-            {/* Pricing Section Start */}
-            {/* <section className="pricing-wrapper pricing-1 style-2 section-padding">
-                <div className="container">
-                    <div className="section-title text-center">
-                        <div className="sub-title">
-                            <span>PRICING PLAN</span>
-                        </div>
-                        <h2>
-                            Pricing That Suits <br /> Your Needs
-                        </h2>
-                    </div>
-                    <Pricing />
-                </div>
-            </section> */}
-            {/* Process Section Start */}
-            {/* <WorkingProcess /> */}
-        </ZotechLayout>
+
+              </div>
+            </div>
+          ))}
+
+        </div>
+      </div>
+    </div>
+  </section>
+</ZotechLayout>
+
+
     );
 };
 export default page;

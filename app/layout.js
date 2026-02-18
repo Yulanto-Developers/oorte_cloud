@@ -15,6 +15,7 @@ import "./styles/custome.css";
 
 import Preloader from "@/components/Preloader";
 import { DM_Sans, Montserrat } from "next/font/google";
+import { FloatingWhatsApp } from "../components/floatingWhatsapp";
 
 const montserratFont = Montserrat({
   subsets: ["latin"],
@@ -47,6 +48,7 @@ export default function RootLayout({ children }) {
       <body>
 
         <Preloader />
+        <FloatingWhatsApp />
         {children}
       </body>
     </html>

@@ -1,12 +1,11 @@
 import Pagebanner from "@/components/Pagebanner";
-import WorkingProcess from "@/components/WorkingProcess";
 import ZotechLayout from "@/layout/ZotechLayout";
 const page = () => {
     return (
         <ZotechLayout>
             <Pagebanner pageName="Digital Audio Guide" />
             {/* service Section Start */}
-            <section className="service-details-section fix section-padding">
+            <section className="service-details-section fix section-padding bg-theme-color">
                 <div className="container">
                     <div className="service-details-wrapper">
                         <div className="row g-5 justify-content-center">
@@ -44,8 +43,6 @@ const page = () => {
                     </div>
                 </div>
             </section>
-            {/* Process Section Start */}
-            {/* <WorkingProcess /> */}
         </ZotechLayout>
     );
 };

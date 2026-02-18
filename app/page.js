@@ -1,19 +1,13 @@
 'use client'
-import Blog from "@/components/Blog";
-import Contact from "@/components/Contact";
+
 import Counter from "@/components/Counter";
-import BrandSlider from "@/components/slider/BrandSlider";
-import CaseStudySlider from "@/components/slider/CaseStudySlider";
 import Testimonial from "@/components/slider/Testimonial";
-import { TeamMember2 } from "@/components/TeamMember";
 import HeroSlider from "@/components/slider/HeroSlider";
 import ZotechLayout from "@/layout/ZotechLayout";
 import Link from "next/link";
 import { Fragment } from "react";
-import { title } from "process";
-import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { FloatingWhatsApp } from "../components/floatingWhatsapp";
+// import { FloatingWhatsApp } from "../components/floatingWhatsapp";
 const page = () => {
 
   const box = [{
@@ -193,7 +187,7 @@ const page = () => {
                 <div className="about-content mt-4 ms-xxl-4">
                   <div className="section-title">
                     <div className="sub-title">
-                      <span>WELCOME TO OORT E</span>
+                      <span>WELCOME TO OORT E CLOUD</span>
                     </div>
                     <h2 className="split-text right">
                       Delivering Excellence in Global  <br /> &amp; Import & Export
@@ -271,30 +265,7 @@ const page = () => {
                       We are committed to delivering premium agricultural and fishery products with uncompromising quality, reliability, and global standards. Our structured sourcing process, scientific associations, and ethical practices ensure that every product meets international market expectations.
                     </h3>
                   </div>
-                  {/* <div className="progress-items">
-                    <div className="progress">
-                      <div
-                        className="progress-value count-bar"
-                        data-percent="86%"
-                      />
-                    </div>
-                    <div className="point">
-                      <p>IT Management</p>
-                      <span>86%</span>
-                    </div>
-                  </div>
-                  <div className="progress-items">
-                    <div className="progress">
-                      <div
-                        className="progress-value count-bar"
-                        data-percent="90%"
-                      />
-                    </div>
-                    <div className="point">
-                      <p>Data Security</p>
-                      <span>90%</span>
-                    </div>
-                  </div> */}
+
                 </div>
               </div>
               <div className="mt-20">
@@ -349,119 +320,6 @@ const page = () => {
             </div>
           </div>
         </section>
-        {/* About Section Start */}
-
-        {/* Choose-us Section Start */}
-        {/* <section className="choose-us-wrapper choose-us-1 section-padding pb-xl-0">
-          <div className="shape">
-            <img src="assets/img/world.png" alt='' />
-          </div>
-          <div className="container">
-            <div className="row">
-              <div className="col-xl-6 col-lg-12 col-md-12">
-                <div
-                  className="choose-us-images wow fadeInLeft"
-                  data-wow-delay="300ms"
-                >
-                  <img src="assets/img/why-choose/01.png" alt='' />
-                  <div className="shape-img">
-                    <img src="assets/img/shape/shape-2.png" alt='' />
-                  </div>
-                </div>
-              </div>
-              <div
-                className="col-xl-6 col-lg-8 col-md-12 mt-5 pt-4 wow fadeInRight"
-                data-wow-delay="300ms"
-              >
-                <div className="choose-us-content ms-xl-4 ps-xl-1">
-                  <div className="section-title">
-                    <div className="sub-title">
-                      <span>WHY CHOOSE US</span>
-                    </div>
-                    <h2 className="split-text right">
-                      We provide truly prominent IT solutions for your success
-                    </h2>
-                  </div>
-                  <p className="mt-4 pe-xl-5 me-xl-3 text-center text-md-start">
-                    Zotech is the partner of choice for many of the world’s
-                    leading enterprises, SMEs and technology challengers. We
-                    help businesses elevate their value through custom software
-                    development, product design, QA and consultancy services.
-                  </p>
-                  <div className="icon-box d-flex mt-4 pt-3 text-center text-md-start">
-                    <div className="single-icon-box">
-                      <div className="icon">
-                        <i className="flaticon-world" />
-                      </div>
-                      <h4>Global Company</h4>
-                      <p>
-                        Our great team of more than to 1400 software experts
-                        member.
-                      </p>
-                    </div>
-                    <div className="single-icon-box">
-                      <div className="icon">
-                        <i className="flaticon-medal-1" />
-                      </div>
-                      <h4>Award Wining</h4>
-                      <p>
-                        Our great team of more than to 1400 software experts
-                        member.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="count-box">
-                    <div className="single-count">
-                      <h2>
-                        <span className="count">
-                          <Counter end={98} />
-                        </span>
-                        %
-                      </h2>
-                      <p>Successful Clients</p>
-                    </div>
-                    <div className="single-count">
-                      <h2>
-                        <span className="count">
-                          <Counter end={6795} />
-                        </span>
-                        +
-                      </h2>
-                      <p>Completed Projects</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section> */}
-        {/* Brand Section Start */}
-
-        {/* Team Section Start */}
-        {/* <TeamMember2 /> */}
-        {/* Case-study Section Start */}
-        {/* <section className="case-study-wrapper case-study-1 section-bg section-padding">
-          <div className="shape">
-            <img className="shape-1" src="assets/img/shape/shape-6.png" alt='' />
-          </div>
-          <div className="container">
-            <div className="section-title-area">
-              <div className="section-title ">
-                <div className="sub-title">
-                  <span>LATEST CASE STUDY</span>
-                </div>
-                <h2 className="split-text left">Introduce Our Projects</h2>
-              </div>
-              <p className="text-center text-md-start">
-                SMEs and technology challengers. We help businesses elevate
-                <br /> their value through custom software development
-              </p>
-            </div>
-          </div>
-          <div className="case-study-inner mt-5">
-            <CaseStudySlider />
-          </div>
-        </section> */}
         {/* Testimonial Section Start */}
         <section className="testimonial-wrapper testimonial-1 section-padding pb-0">
           <div className="shape">
@@ -484,8 +342,7 @@ const page = () => {
             </div>
           </div>
         </section>
-      
-        <FloatingWhatsApp />
+        
       </ZotechLayout>
     </Fragment>
   );

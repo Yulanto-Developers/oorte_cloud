@@ -34,7 +34,7 @@ const Header1 = () => {
                 <i className="fab fa-facebook-f" />
               </a>
               <a href="#">
-                <i className="fab fa-twitter" />
+                <i className="fab fa-x-twitter" />
               </a>
               <a href="#">
                 <i className="fab fa-instagram" />
@@ -48,7 +48,7 @@ const Header1 = () => {
       {/* Header Section Start */}
       <header>
         <div id="header-sticky" className="header-1">
-          <div className="container">
+          <div className="container-fluid">
             <div className="mega-menu-wrapper">
               <div className="header-main ">
                 <div className="header-left">
@@ -414,7 +414,7 @@ const Menu = () => {
           </li>
 
           <li>
-            <Link href="/digital">Digital Audio</Link>
+            <Link href="/digital">Digital Audio Guide</Link>
           </li>
           <li>
             <Link href="/contact">Contact</Link>

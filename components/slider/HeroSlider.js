@@ -20,7 +20,7 @@ const HeroSlider = () => {
       desc: "Delivering Excellence In Import & Export To Move Your Business Globally",
       highlight: "Solutions",
       btnText: "Reach Us",
-      btnLink: "about",
+      btnLink: "contact",
       bg: "/assets/img/banner/banner-3.jpg",
     },
   ];

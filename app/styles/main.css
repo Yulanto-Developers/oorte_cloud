@@ -27,9 +27,9 @@ Version: 1.0.0
   --border: rgba(255, 255, 255, 0.12);
   --border-2: rgba(4, 11, 41, 0.17);
   --ratting: #f8bc26;
-  --bg: #f3f8ff;
+  --bg: #F5F0D2;
   ---box-shadow: 11px 15px 79.9px 48px rgba(10, 6, 68, 0.05);
-  --icons:#7AD242;
+  --icons: #7AD242;
 }
 
 .theme-btn {
@@ -3141,7 +3141,7 @@ input.main-search-input::placeholder {
   margin-top: 30px;
   height: 373px;
   border-radius: 12px;
-  background: var(--theme);
+  background: rgb(17, 15, 15);
   padding: 40px;
   box-shadow: 7px 11px 50px 52px rgba(2, 8, 66, 0.03);
   transition: all 0.4s ease-in-out;
@@ -9683,7 +9683,7 @@ p.sticky-label {
     height: 100%;
     padding-left: 40px;
     padding-top: 20px;
-    padding-bottom:30px
+    padding-bottom: 30px
   }
 }
 
