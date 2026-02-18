@@ -417,7 +417,7 @@ const Menu = () => {
             <Link href="/digital">Digital Audio Guide</Link>
           </li>
           <li>
-            <Link href="/contact">Contact</Link>
+            <Link href="/contact">Contact Us</Link>
           </li>
           {/* <li>
             <a href="" className="theme-btn black-btn">+91 99800 43506</a>
@@ -474,7 +474,7 @@ const MobileMenu = () => {
                           Home
                           <i className="fas fa-angle-down" />
                         </Link>
-                        <ul className="submenu has-homemenu">
+                        {/* <ul className="submenu has-homemenu">
                           <li>
                             <div className="homemenu-items">
                               <div className="homemenu">
@@ -554,9 +554,9 @@ const MobileMenu = () => {
                         </ul>
                         <a className="mean-expand" href="#">
                           <i className="far fa-plus" />
-                        </a>
+                        </a> */}
                       </li>
-                      <li className="has-dropdown  d-xl-none">
+                      {/* <li className="has-dropdown  d-xl-none">
                         <a
                           href="#"
                           className="border-none"
@@ -586,13 +586,13 @@ const MobileMenu = () => {
                         >
                           <i className="far fa-plus" />
                         </a>
-                      </li>
+                      </li> */}
                       <li>
-                        <a href="#" onClick={() => activeMenuSet("Pages")}>
-                          Pages
+                        <a href="/" onClick={() => activeMenuSet("Pages")}>
+                        Home
                           <i className="fas fa-angle-down" />
                         </a>
-                        <ul className="submenu" style={activeLi("Pages")}>
+                        {/* <ul className="submenu" style={activeLi("Pages")}>
                           <li>
                             <Link href="team">Team</Link>
                           </li>
@@ -618,14 +618,47 @@ const MobileMenu = () => {
                           onClick={() => activeMenuSet("Pages")}
                         >
                           <i className="far fa-plus" />
-                        </a>
+                        </a> */}
                       </li>
                       <li>
-                        <a href="#" onClick={() => activeMenuSet("Services")}>
-                          Services
+                        <a href="/about" onClick={() => activeMenuSet("Pages")}>
+                          About Us
                           <i className="fas fa-angle-down" />
                         </a>
-                        <ul className="submenu" style={activeLi("Services")}>
+                        {/* <ul className="submenu" style={activeLi("Pages")}>
+                          <li>
+                            <Link href="team">Team</Link>
+                          </li>
+                          <li>
+                            <Link href="teams-details">Team Details</Link>
+                          </li>
+                          <li>
+                            <Link href="about">About</Link>
+                          </li>
+                          <li>
+                            <Link href="pricing">Pricing</Link>
+                          </li>
+                          <li>
+                            <Link href="faqs">FAQS</Link>
+                          </li>
+                          <li>
+                            <Link href="404">404</Link>
+                          </li>
+                        </ul>
+                        <a
+                          className="mean-expand"
+                          href="#"
+                          onClick={() => activeMenuSet("Pages")}
+                        >
+                          <i className="far fa-plus" />
+                        </a> */}
+                      </li>
+                      <li>
+                        <a href="project" onClick={() => activeMenuSet("Services")}>
+                          Our Projects
+                          <i className="fas fa-angle-down" />
+                        </a>
+                        {/* <ul className="submenu" style={activeLi("Services")}>
                           <li>
                             <Link href="services">Services Grid</Link>
                           </li>
@@ -639,14 +672,14 @@ const MobileMenu = () => {
                           onClick={() => activeMenuSet("Services")}
                         >
                           <i className="far fa-plus" />
-                        </a>
+                        </a> */}
                       </li>
                       <li className="has-dropdown">
-                        <a href="#" onClick={() => activeMenuSet("Projects")}>
-                          Projects
+                        <a href="/digital" onClick={() => activeMenuSet("Projects")}>
+                          Digital Audio Guide
                           <i className="fas fa-angle-down" />
                         </a>
-                        <ul className="submenu" style={activeLi("Projects")}>
+                        {/* <ul className="submenu" style={activeLi("Projects")}>
                           <li>
                             <Link href="projects">Projects Grid</Link>
                           </li>
@@ -660,9 +693,9 @@ const MobileMenu = () => {
                           onClick={() => activeMenuSet("Projects")}
                         >
                           <i className="far fa-plus" />
-                        </a>
+                        </a> */}
                       </li>
-                      <li>
+                      {/* <li>
                         <a href="#" onClick={() => activeMenuSet("News")}>
                           News
                           <i className="fas fa-angle-down" />
@@ -685,9 +718,9 @@ const MobileMenu = () => {
                         >
                           <i className="far fa-plus" />
                         </a>
-                      </li>
+                      </li> */}
                       <li className="mean-last">
-                        <Link href="contact">Contact</Link>
+                        <Link href="contact">Contact Us</Link>
                       </li>
                     </ul>
                   </nav>
@@ -703,7 +736,7 @@ const MobileMenu = () => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a target="_blank" href="#">
-                        Main Street, Melbourne, Australia
+                        #170, Sai Kranthi, Near Siddivinayaka Temple, Panduranga Nagar, Bengaluru-560 076
                       </a>
                     </div>
                   </li>
@@ -713,13 +746,13 @@ const MobileMenu = () => {
                     </div>
                     <div className="offcanvas__contact-text">
                       <a href="mailto:info@azent.com">
-                        <span className="mailto:info@example.com">
-                          info@example.com
+                        <span className="mailto:oortecloud@gmail.com">
+                          oortecloud@gmail.com
                         </span>
                       </a>
                     </div>
                   </li>
-                  <li className="d-flex align-items-center">
+                  {/* <li className="d-flex align-items-center">
                     <div className="offcanvas__contact-icon mr-15">
                       <i className="fal fa-clock" />
                     </div>
@@ -728,18 +761,18 @@ const MobileMenu = () => {
                         Mod-friday, 09am -05pm
                       </a>
                     </div>
-                  </li>
+                  </li> */}
                   <li className="d-flex align-items-center">
                     <div className="offcanvas__contact-icon mr-15">
-                      <i className="far fa-phone" />
+                      <i className="fa fa-phone" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="tel:+11002345909">+11002345909</a>
+                      <a href="tel:+919980043506">+91 99800 43506</a>
                     </div>
                   </li>
                 </ul>
                 <div className="header-button mt-4">
-                  <a href='' className="theme-btn">
+                  <a href='/contact' className="theme-btn">
                     Contact Us
                   </a>
                 </div>
@@ -748,14 +781,14 @@ const MobileMenu = () => {
                     <i className="fab fa-facebook-f" />
                   </a>
                   <a href="#">
-                    <i className="fab fa-twitter" />
+                    <i className="fab fa-x-twitter" />
                   </a>
                   <a href="#">
-                    <i className="fab fa-youtube" />
+                    <i className="fab fa-instragam" />
                   </a>
-                  <a href="#">
+                  {/* <a href="#">
                     <i className="fab fa-linkedin-in" />
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>
