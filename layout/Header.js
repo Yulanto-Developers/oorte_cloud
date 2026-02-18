@@ -742,10 +742,10 @@ const MobileMenu = () => {
                   </li>
                   <li className="d-flex align-items-center">
                     <div className="offcanvas__contact-icon mr-15">
-                      <i className="fal fa-envelope" />
+                      <i className="fal fa-mail" />
                     </div>
                     <div className="offcanvas__contact-text">
-                      <a href="mailto:info@azent.com">
+                      <a href="mailto:oortecloud@gmail.com">
                         <span className="mailto:oortecloud@gmail.com">
                           oortecloud@gmail.com
                         </span>
@@ -764,7 +764,7 @@ const MobileMenu = () => {
                   </li> */}
                   <li className="d-flex align-items-center">
                     <div className="offcanvas__contact-icon mr-15">
-                      <i className="fa fa-phone" />
+                      {/* <i className="fa fa-phone" /> */}
                     </div>
                     <div className="offcanvas__contact-text">
                       <a href="tel:+919980043506">+91 99800 43506</a>
