@@ -173,10 +173,20 @@ const page = () => {
               >
                 <div className="about-images">
                   <div className="image-1">
-                    <img src="assets/img/about/about-1.jpg" alt="img" />
+                    <img src="assets/img/about/about-2.jpg" alt="img" />
                   </div>
                   <div className="image-2 cls-height">
-                    <img src="assets/img/about/about-2.jpg" alt="img" />
+                    {/* <img src="assets/img/about/about-2.jpg" alt="img" /> */}
+                    <video
+                      src="/assets/img/about/v-about.mp4"
+                      controls
+                      autoPlay
+                      muted
+                      loop
+                      className=""
+                    >
+                    </video>
+
                   </div>
                 </div>
               </div>
@@ -342,7 +352,7 @@ const page = () => {
             </div>
           </div>
         </section>
-        
+
       </ZotechLayout>
     </Fragment>
   );

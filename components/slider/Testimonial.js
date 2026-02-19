@@ -12,7 +12,7 @@ const Testimonial = () => {
       review:
         "Oort E Cloud consistently delivers premium agricultural products with exceptional quality and timely shipment. Their professionalism and reliability make them a trusted global partner.",
       rating: 5,
-      image: "assets/img/testimonial/img-1.jpg",
+      // image: "assets/img/testimonial/img-1.jpg",
     },
     {
       name: "Anita Fernandez",
@@ -20,15 +20,15 @@ const Testimonial = () => {
       review:
         "We appreciate their strong sourcing network and strict quality standards. Every shipment meets international expectations and arrives on time.",
       rating: 5,
-      image: "assets/img/testimonial/img-3.jpg",
+      // image: "assets/img/testimonial/img-3.jpg",
     },
     {
-      name: "Mohammed Ali",
+      name: "Andrew",
       designation: "Wholesale Distributor",
       review:
         "Their commitment to freshness and ethical practices sets them apart. Oort E Cloud is a reliable partner for long-term global trade.",
       rating: 5,
-      image: "assets/img/testimonial/img-2.jpg",
+      // image: "assets/img/testimonial/img-2.jpg",
     },
   ];
 
@@ -37,7 +37,7 @@ const Testimonial = () => {
       {testimonials.map((item, index) => (
         <SwiperSlide key={index}>
           <div className="signle-testimonial-item d-flex">
-            <img src={item.image} alt={item.name} />
+            {/* <img src={item.image} alt={item.name} /> */}
             <div className="content">
               <div className="star text-center text-md-start">
                 {[...Array(5)].map((_, i) => (

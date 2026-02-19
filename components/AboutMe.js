@@ -47,6 +47,12 @@ const AboutMe = ({
               <p>
                 We have a broad vision to serve global markets through the import and export of high-quality agricultural and fishery products. Our operations focus on sourcing and supplying premium products such as Spices, Bananas, Coconuts, Rice, Millets, and Fishery Products to customers around the world.
               </p>
+              {/* <br /> */}
+              <p>
+                We maintain strict quality control standards to ensure every product meets international export requirements.
+
+                Our strong network of trusted farmers, producers, and suppliers enables consistent and reliable sourcing.
+              </p>
               <p className="font-cls">We are associated with</p>
               <ul>
                 {
@@ -75,7 +81,7 @@ const AboutMe = ({
                   </p>
                 </div>
               </div> */}
-              <div className="about-infu">
+              {/* <div className="about-infu">
                 <a href="" className="theme-btn">
                   Get In Touch
                 </a>
@@ -88,7 +94,7 @@ const AboutMe = ({
                     <h4 className="text-white">0123-456-7890</h4>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
