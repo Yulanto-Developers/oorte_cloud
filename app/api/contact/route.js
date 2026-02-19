@@ -15,18 +15,18 @@ export async function POST(req) {
 
 
         const BREVO_API_KEY = process.env.BREVO_API_KEY;
-        console.log(BREVO_API_KEY);
-        console.log("KEY LENGTH:", BREVO_API_KEY.length);
+        // console.log(BREVO_API_KEY);
+        // console.log("KEY LENGTH:", BREVO_API_KEY.length);
 
         if (!BREVO_API_KEY) {
-            console.error("❌ BREVO_API_KEY is missing in environment variables");
+            // console.error("❌ BREVO_API_KEY is missing in environment variables");
             return NextResponse.json(
                 { message: "Email service not configured." },
                 { status: 500 }
             );
         }
 
-        console.log("✅ BREVO KEY Loaded");
+        // console.log("✅ BREVO KEY Loaded");
 
 
         //  ADMIN EMAIL
@@ -140,7 +140,7 @@ export async function POST(req) {
         const adminData = await adminResponse.json();
 
         if (!adminResponse.ok) {
-            console.error("❌ Admin Email Failed:", adminData);
+            // console.error("❌ Admin Email Failed:", adminData);
             return NextResponse.json(
                 { message: "Failed to send admin email." },
                 { status: 500 }
@@ -234,7 +234,7 @@ export async function POST(req) {
         const clientData = await clientResponse.json();
 
         if (!clientResponse.ok) {
-            console.error("❌ Client Email Failed:", clientData);
+            // console.error("❌ Client Email Failed:", clientData);
             return NextResponse.json(
                 { message: "Failed to send confirmation email." },
                 { status: 500 }
@@ -247,7 +247,7 @@ export async function POST(req) {
             { status: 200 }
         );
     } catch (error) {
-        console.error("❌ CONTACT API ERROR:", error);
+        // console.error("❌ CONTACT API ERROR:", error);
         return NextResponse.json(
             { message: "Something went wrong. Please try again later." },
             { status: 500 }

@@ -29,7 +29,7 @@ const Page = () => {
     e.preventDefault();
     setLoading(true);
 
-    console.log("Submitting:", formData);
+    // console.log("Submitting:", formData);
 
     try {
       const res = await fetch("/api/contact", {
@@ -97,7 +97,7 @@ const Page = () => {
                 <div className="title">
                   <span>Call Us</span>
                   <a href="tel:+919980043506">
-                    <h3>+91 99800 43506</h3>
+                    <h4>+91 99800 43506</h4>
                   </a>
                 </div>
               </div>

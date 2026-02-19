@@ -3,7 +3,7 @@ import Link from "next/link";
 const Pagebanner = ({ pageName }) => {
   const bannerImage =
     pageName === "Digital Audio Guide"
-      ? "assets/img/banner/digital.jpg"
+      ? "assets/img/banner/digital-1.jpg"
       : "assets/img/banner/page-banner.jpg";
 
   return (
