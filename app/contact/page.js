@@ -32,6 +32,16 @@ const Page = () => {
     console.log("Submitting:", formData);
 
     try {
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const data = await res.json();
+
       if (res.ok) {
         Swal.fire({
           icon: "success",
@@ -69,6 +79,7 @@ const Page = () => {
 
     setLoading(false);
   };
+
 
   return (
     <ZotechLayout>

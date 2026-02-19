@@ -1,10 +1,15 @@
 import Link from "next/link";
 
 const Pagebanner = ({ pageName }) => {
+  const bannerImage =
+    pageName === "Digital Audio Guide"
+      ? "assets/img/banner/digital.jpg"
+      : "assets/img/banner/page-banner.jpg";
+
   return (
     <div
       className="breadcrumb-wrapper bg-cover"
-      style={{ backgroundImage: 'url("assets/img/banner/page-banner.jpg")' }}
+      style={{ backgroundImage: `url("${bannerImage}")` }}
     >
       <div className="container">
         <div className="page-heading">
@@ -17,7 +22,7 @@ const Pagebanner = ({ pageName }) => {
                 <Link href="/">Home</Link>
               </li>
               <li>
-               <i className="fas fa-arrow-right"></i>
+                <i className="fas fa-arrow-right"></i>
               </li>
               <li>{pageName}</li>
             </ul>
