@@ -10234,7 +10234,7 @@ p.sticky-label {
   content: "";
   max-width: 1500px;
   height: 642px;
-  background: rgba(0, 85, 255, 0.08);
+  background: var(--bg);
   margin: 0 auto;
   z-index: -1;
   border-radius: 20px;

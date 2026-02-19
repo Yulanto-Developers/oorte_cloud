@@ -141,11 +141,7 @@
 export const Contact2 = () => {
   return (
     <section className="contact-us-wrapper contact-us-2 section-padding">
-      <div className="shape">
-        <img className="shape-1" src="assets/img/shape/shape-21.png" alt='' />
-        <img className="shape-2" src="assets/img/shape/shape-11.png" alt='' />
-        <img className="shape-3" src="assets/img/shape/shape-22.png" alt='' />
-      </div>
+     
       <div className="container">
         <div className="section-title text-center">
           <div className="sub-title">
