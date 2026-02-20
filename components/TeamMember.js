@@ -128,39 +128,46 @@ export const TeamMember2 = () => {
               <div className="single-team-item text-center">
 
                 {/* Image */}
-                <a href='https://www.youtube.com/watch?v=eAxlv1XVMNU' target="blank">
-
-                  <div className="team-image d-flex justify-content-center mb-4 p-3">
-                    <img
-                      src={member.image}
-                      className="image-round"
-                      alt="team-img"
-                      style={{
-                        width: "250px",
-                        height: "250px",
-                        objectFit: "cover",
-                        borderRadius: "50%",
-                        boxShadow: "0 5px 15px rgba(0,0,0,0.3)",
-                      }}
-                    />
-                  </div>
 
 
-                  {/* Name */}
-                  <h3 className="mb-2 text-theme-ceo">{member.name}</h3>
+                <div className="team-image d-flex justify-content-center mb-4 p-3">
+                  <img
+                    src={member.image}
+                    className="image-round"
+                    alt="team-img"
+                    style={{
+                      width: "250px",
+                      height: "250px",
+                      objectFit: "cover",
+                      borderRadius: "50%",
+                      boxShadow: "0 5px 15px rgba(0,0,0,0.3)",
+                    }}
+                  />
+                </div>
 
-                  {/* Designation */}
-                  <p className="fw-semibold mb-3">{member.role}</p>
 
-                  {/* Description */}
-                  <p className="px-3">{member.description}</p>
-                </a>
-              </div>
+                {/* Name */}
+                <h3 className="mb-2 text-theme-ceo">{member.name}</h3>
+
+                {/* Designation */}
+                <div style={{ 
+                  display: "flex",
+                   justifyContent:"center",
+                   alignItems:"baseline",
+                   gap:"30px"}} > <p className="fw-semibold mb-3">{member.role}</p> <a href="https://www.youtube.com/watch?v=eAxlv1XVMNU" target="_blank"
+                  rel="noopener noreferrer">
+                  <i className="fa-brands fa-youtube"></i>
+                </a></div>
+
+              {/* Description */}
+              <p className="px-3">{member.description}</p>
+
+            </div>
             </div>
           ))}
-        </div>
-
       </div>
-    </section>
+
+    </div>
+    </section >
   );
 };
