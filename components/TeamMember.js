@@ -110,13 +110,26 @@ export const TeamMember2 = () => {
           <br /> backed by quality assurance and timely delivery.
         </p>
         <div className="row justify-content-center">
+         
           {[
             {
               image: "assets/img/team/t11.jpg",
               role: "CEO",
               name: "Praveen Raj B",
+              link: 'https://www.youtube.com/watch?v=eAxlv1XVMNU',
+              icon: 'fa-youtube',
               description:
                 "Praveen Raj  is a visionary leader with 15+ years of experience in business strategy, innovation, and corporate leadership.",
+              delay: "200ms",
+            },
+            {
+              image: "assets/img/team/t22.jpg",
+              role: "Ambassador",
+              name: "Kiran Gowda",
+              link: 'https://www.instagram.com/kirangowdadubai?igsh=MW1lcGJlNWFmZmU0aQ==',
+              icon: 'fa-instagram',
+              description:
+                "Kiran Gowda is President of Vokkaligara Sangha Dubai and seems actively involved in organizing community events, sports activities, and social gatherings for the Indian community.",
               delay: "200ms",
             },
           ].map((member, index) => (
@@ -150,24 +163,28 @@ export const TeamMember2 = () => {
                 <h3 className="mb-2 text-theme-ceo">{member.name}</h3>
 
                 {/* Designation */}
-                <div style={{ 
+                <div style={{
                   display: "flex",
-                   justifyContent:"center",
-                   alignItems:"baseline",
-                   gap:"30px"}} > <p className="fw-semibold mb-3">{member.role}</p> <a href="https://www.youtube.com/watch?v=eAxlv1XVMNU" target="_blank"
+                  justifyContent: "center",
+                  alignItems: "baseline",
+                  gap: "30px"
+                }} > <p className="fw-semibold mb-3">{member.role}</p> <a href={`${member.link}`} target="_blank"
                   rel="noopener noreferrer">
-                  <i className="fa-brands fa-youtube"></i>
-                </a></div>
+                    <i className={`fa-brands ${member.icon}`}></i>
+                  </a></div>
 
-              {/* Description */}
-              <p className="px-3">{member.description}</p>
+                {/* Description */}
+                <p className="px-3">{member.description}</p>
 
-            </div>
+              </div>
             </div>
           ))}
-      </div>
+        </div>
 
-    </div>
+      </div>
     </section >
   );
 };
+
+
+// fa-youtube

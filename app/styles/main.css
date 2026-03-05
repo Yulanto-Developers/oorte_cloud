@@ -1626,6 +1626,8 @@ input.main-search-input::placeholder {
   transition: all 0.4s ease-in-out;
 }
 
+
+
 .header-main .main-menu ul li .submenu li {
   display: block;
   width: 100%;
@@ -1702,6 +1704,12 @@ input.main-search-input::placeholder {
   align-items: center;
   gap: 30px;
   justify-content: space-between;
+}
+
+@media (max-width: 1366px) { 
+  .header-main .main-menu ul li a{
+font-size: 14px !important;
+  }
 }
 
 @media (max-width: 991px) {
