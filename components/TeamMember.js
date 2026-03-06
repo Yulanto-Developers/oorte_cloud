@@ -110,7 +110,7 @@ export const TeamMember2 = () => {
           <br /> backed by quality assurance and timely delivery.
         </p>
         <div className="row justify-content-center">
-         
+
           {[
             {
               image: "assets/img/team/t11.jpg",
@@ -124,7 +124,7 @@ export const TeamMember2 = () => {
             },
             {
               image: "assets/img/team/t22.jpg",
-              role: "Ambassador",
+              role: "Business Partner and Ambassador",
               name: "Kiran Gowda",
               link: 'https://www.instagram.com/kirangowdadubai?igsh=MW1lcGJlNWFmZmU0aQ==',
               icon: 'fa-instagram',
