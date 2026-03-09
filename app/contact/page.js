@@ -125,8 +125,8 @@ const Page = () => {
                 </div>
                 <div className="title">
                   <span>Mail us</span>
-                  <a href="mailto:oortecloud@gmail.com">
-                    <h4>oortecloud@gmail.com</h4>
+                  <a href="mailto:contact@oortecloud.com">
+                    <h4>contact@oortecloud.com</h4>
                   </a>
                 </div>
               </div>

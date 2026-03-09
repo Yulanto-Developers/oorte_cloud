@@ -182,7 +182,7 @@ const Footer1 = () => {
                       </a>
                       <div className="contact-infu">
 
-                        <h5>oortecloud@gmail.com</h5>
+                        <h5>contact@oortecloud.com</h5>
                       </div>
                     </div>
                     <div className="contact">
